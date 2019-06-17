@@ -24,27 +24,74 @@ export default class projects extends Component {
   toggleCategories = () => {
     if (this.state.activeTab === 0) {
       return (
-        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-          <CardTitle
-            style={{
-              color: '#fff',
-              height: '176px',
-              background:
-                'url(https://i.pinimg.com/originals/f9/35/16/f935166508d3f17aa61c56cac76ac852.jpg) center / cover'
-            }}
-          >
-            React Project #1
-          </CardTitle>
-          <CardText>sample text</CardText>
-          <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>Live Demo</Button>
-          </CardActions>
-          <CardMenu style={{ color: '#fff' }}>
-            <IconButton name='share' />
-          </CardMenu>
-        </Card>
+        <div className='project-grid'>
+          {/* // Project 1 */}
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#FFF',
+                height: '176px',
+                background:
+                  'url(http://www.dochollypetvet.com/doc_uploads/2018/01/pexels-photo-551628-400x400.jpeg) center / cover'
+              }}
+            >
+              React Project #1
+            </CardTitle>
+            <CardText>sample text</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name='share' />
+            </CardMenu>
+          </Card>
+          {/* // Project 2 */}
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#FFF',
+                height: '176px',
+                background:
+                  'url(https://i.pinimg.com/originals/f9/35/16/f935166508d3f17aa61c56cac76ac852.jpg) center / cover'
+              }}
+            >
+              React Project #2
+            </CardTitle>
+            <CardText>sample text</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name='share' />
+            </CardMenu>
+          </Card>
+          {/* // Project 3 */}
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#FFF',
+                height: '176px',
+                background:
+                  'url(https://pbs.twimg.com/profile_images/1112594177961844736/qQK8NJT-.jpg) center / cover'
+              }}
+            >
+              React Project #3
+            </CardTitle>
+            <CardText>sample text</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name='share' />
+            </CardMenu>
+          </Card>
+        </div>
       )
     } else if (this.state.activeTab === 1) {
       return (
@@ -74,13 +121,11 @@ export default class projects extends Component {
           <Tab>JS</Tab>
         </Tabs>
 
-        <section className='projects-grid'>
-          <Grid className='projects-grid'>
-            <Cell col={12}>
-              <div className='content'>{this.toggleCategories()}</div>
-            </Cell>
-          </Grid>
-        </section>
+        <Grid>
+          <Cell col={12}>
+            <div className='content'>{this.toggleCategories()}</div>
+          </Cell>
+        </Grid>
       </div>
     )
   }
