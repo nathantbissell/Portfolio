@@ -16,7 +16,7 @@ class Landing extends Component {
               <h1>Full Stack Web Developer</h1>
 
               <hr />
-              <p>HTML | CSS | React | Express | MongoDB | Express</p>
+              <p>Javascript | CSS | React | Jquery | MongoDB | Express</p>
               <div className='social-links'>
                 <a href='http://google.com' target='_blank'>
                   <i className='fab fa-instagram' />
@@ -24,7 +24,7 @@ class Landing extends Component {
                 <a href='http://google.com' target='_blank'>
                   <i className='fab fa-linkedin' />
                 </a>
-                <a href='http://google.com' target='_blank'>
+                <a href='https://github.com/nathantbissell' target='_blank'>
                   <i className='fab fa-github' />
                 </a>
                 <a href='http://google.com' target='_blank'>
