@@ -18,13 +18,25 @@ class Landing extends Component {
               <hr />
               <p>Javascript | CSS | React | Jquery | MongoDB | Express</p>
               <div className='social-links'>
-                <a href='http://google.com' target='_blank'>
+                <a
+                  href='http://google.com'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
                   <i className='fab fa-instagram' />
                 </a>
-                <a href='http://google.com' target='_blank'>
+                <a
+                  href='http://google.com'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
                   <i className='fab fa-linkedin' />
                 </a>
-                <a href='https://github.com/nathantbissell' target='_blank'>
+                <a
+                  href='https://github.com/nathantbissell'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
                   <i className='fab fa-github' />
                 </a>
                 <a href='mailto: natebissmadethis@gmail.com'>
