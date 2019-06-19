@@ -8,7 +8,7 @@ class Landing extends Component {
         <Grid className='landing-grid'>
           <Cell col={12}>
             <img
-              src='http://pgbxproducts.pregel2.com/media/catalog/product/cache/10/image/1500x/9df78eab33525d08d6e5fb8d27136e95/p/l/plasmon.png'
+              src='https://instagram.fzty1-1.fna.fbcdn.net/vp/d9d4bd1da97d86d122c66a5cd08ac202/5DA04B46/t51.2885-15/e35/s1080x1080/61411213_624638718050145_2295410649549424989_n.jpg?_nc_ht=instagram.fzty1-1.fna.fbcdn.net'
               alt='avatar'
               className='avatar-img'
             />
@@ -27,7 +27,7 @@ class Landing extends Component {
                 <a href='https://github.com/nathantbissell' target='_blank'>
                   <i className='fab fa-github' />
                 </a>
-                <a href='http://google.com' target='_blank'>
+                <a href='mailto: natebissmadethis@gmail.com'>
                   <i className='fas fa-inbox' />
                 </a>
               </div>

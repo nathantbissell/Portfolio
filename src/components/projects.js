@@ -26,83 +26,79 @@ export default class projects extends Component {
       return (
         <div className='project-grid'>
           {/* // Project 1 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} className='card'>
             <CardTitle
+              className='title'
               style={{
-                color: '#FFF',
-                height: '176px',
                 background:
-                  'url(http://www.dochollypetvet.com/doc_uploads/2018/01/pexels-photo-551628-400x400.jpeg) center / cover'
+                  'url(https://nathantbissell.github.io/Portfolio/img/techup.jpg) center / cover'
               }}
-            >
-              React Project #1
-            </CardTitle>
-            <CardText>sample text</CardText>
+            />
+            <CardText>
+              Built with React Class based Components, React Context, and a
+              fully functional frontend deployed onto Github pages. This site
+              allows you to purchase multiple tech products, add them to cart,
+              view details, update quantity of items, and cash out via Paypal
+              API.
+            </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <div className='github'>
+                <Button colored>Github</Button>
+              </div>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name='share' />
-            </CardMenu>
           </Card>
           {/* // Project 2 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} className='card'>
             <CardTitle
+              className='title'
               style={{
-                color: '#FFF',
-                height: '176px',
                 background:
-                  'url(https://i.pinimg.com/originals/f9/35/16/f935166508d3f17aa61c56cac76ac852.jpg) center / cover'
+                  'url(https://nathantbissell.github.io/Portfolio/img/rotoreact.JPG) center / cover'
               }}
-            >
-              React Project #2
-            </CardTitle>
-            <CardText>sample text</CardText>
+            />
+            <CardText>
+              (React, Express, Mongodb, GA Authentication) A full-stack React
+              application that allows a user to create, read, update, and delete
+              fantasy football lineups.
+            </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <div className='github'>
+                <Button colored>Github</Button>
+              </div>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name='share' />
-            </CardMenu>
           </Card>
           {/* // Project 3 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} className='card'>
             <CardTitle
+              className='title'
               style={{
-                color: '#FFF',
-                height: '176px',
                 background:
-                  'url(https://pbs.twimg.com/profile_images/1112594177961844736/qQK8NJT-.jpg) center / cover'
+                  'url(https://pbs.twimg.com/media/D9ZJ-zTWkAAXlNN?format=jpg&name=small) center / cover'
               }}
-            >
-              React Project #3
-            </CardTitle>
-            <CardText>sample text</CardText>
+            />
+            <CardText>
+              React Class based Components, using state, random number
+              generators, toastify notifications, and Bootstrap Progress Bars to
+              simulate a constantly fluctuating stock market.
+            </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <div className='github'>
+                <Button colored>Github</Button>
+              </div>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name='share' />
-            </CardMenu>
           </Card>
         </div>
       )
     } else if (this.state.activeTab === 1) {
       return (
         <div>
-          <h1>This is Ruby on Rails</h1>
+          <h1>Projects Pending!</h1>
         </div>
       )
     } else if (this.state.activeTab === 2) {
       return (
         <div>
-          <h1>This is JS</h1>
+          <h1>Projects Pending!</h1>
         </div>
       )
     }

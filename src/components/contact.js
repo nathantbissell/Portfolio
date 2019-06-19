@@ -9,18 +9,10 @@ export default class contact extends Component {
           <Cell col={6}>
             <h1>Nathan Bissell</h1>
             <img
-              src='https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png'
+              src='https://instagram.fzty1-1.fna.fbcdn.net/vp/d9d4bd1da97d86d122c66a5cd08ac202/5DA04B46/t51.2885-15/e35/s1080x1080/61411213_624638718050145_2295410649549424989_n.jpg?_nc_ht=instagram.fzty1-1.fna.fbcdn.net'
               alt='avatar'
-              style={{ height: '250px' }}
             />
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
-              Board Man Gets Paid I just think I'm a really fun
-              guyyyyyyyyyyyyyyyyyy hwaaa haaaa hwaa hwaa haa haa ha ha ha haaa
-              Board Man Gets Paid, Board Man Gets Paid, Board Man Gets PaidBoard
-              Man Gets Paid I just think I'm a really fun guyyyyyyyyyyyyyyyyyy
-              hwaaa haaaa hwaa hwaa haa haa ha ha ha haaa Board Man Gets Paid,
-              Board Man Gets Paid, Board Man Gets Paid
-            </p>
+            <p>26 year old.</p>
           </Cell>
 
           <Cell col={6}>
@@ -29,38 +21,32 @@ export default class contact extends Component {
             <div className='contact-list'>
               <List>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: '30px', fontFamily: 'Anton' }}
-                  >
+                  <ListItemContent className='contact-content'>
                     <i className='fas fa-phone-square' />
                     (401) 556-2161
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: '30px', fontFamily: 'Anton' }}
-                  >
-                    <i className='fas fa-phone-square' />
-                    (401) 556-2161
+                  <ListItemContent className='contact-content inbox'>
+                    <i className='fas fa-envelope-square' />
+                    natebissmadethis@gmail.com
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: '30px', fontFamily: 'Anton' }}
-                  >
-                    <i className='fas fa-phone-square' />
-                    (401) 556-2161
+                  <ListItemContent className='contact-content'>
+                    <i className='fab fa-linkedin' />
+                    <a href='https://www.linkedin.com/in/nathan-bissell/'>
+                      linkedIn
+                    </a>
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: '30px', fontFamily: 'Anton' }}
-                  >
-                    <i className='fas fa-phone-square' />
-                    (401) 556-2161
+                  <ListItemContent className='contact-content'>
+                    <i className='fab fa-github-square' />
+                    <a href='https://github.com/nathantbissell'>github</a>
                   </ListItemContent>
                 </ListItem>
               </List>

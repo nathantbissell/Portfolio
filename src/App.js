@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className='demo-big-content'>
       <Layout>
-        <Header className='header-color' title='Title' scroll>
+        <Header className='header-color' title='NBMT inc.' scroll>
           <Navigation>
             <Link to='/resume'>Resume</Link>
             <Link to='/aboutMe'>About Me</Link>
@@ -16,7 +16,7 @@ const App = () => {
             <Link to='/contact'>Contact</Link>
           </Navigation>
         </Header>
-        <Drawer title='Title'>
+        <Drawer title='Nate Biss'>
           <Navigation>
             <Link to='/resume'>Resume</Link>
             <Link to='/aboutMe'>About Me</Link>
