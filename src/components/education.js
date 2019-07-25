@@ -11,8 +11,14 @@ class Education extends Component {
           </p>
         </Cell>
         <Cell col={8}>
-          <h4 style={{ marginTop: '0px' }}>{this.props.schoolName}</h4>
+          <h3 style={{ marginTop: '0px' }}>{this.props.schoolName}</h3>
+          <h5>{this.props.degree}</h5>
           <p>{this.props.schoolDescription}</p>
+          <p>
+            {this.props.topics.map(topic => (
+              <li>{topic}</li>
+            ))}
+          </p>
         </Cell>
       </Grid>
     )

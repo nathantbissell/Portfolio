@@ -12,7 +12,7 @@ class Resume extends Component {
           <Cell col={4}>
             <div className='resume-avatar'>
               <img
-                src='https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png'
+                src='https://instagram.fzty1-1.fna.fbcdn.net/vp/d9d4bd1da97d86d122c66a5cd08ac202/5DA04B46/t51.2885-15/e35/s1080x1080/61411213_624638718050145_2295410649549424989_n.jpg?_nc_ht=instagram.fzty1-1.fna.fbcdn.net'
                 alt='avatar'
               />
             </div>
@@ -36,36 +36,67 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>natebissmadethis@gmail.com</p>
             <h5>Web</h5>
-            <p>mywebsite.com</p>
+            {/* <p>mywebsite.com</p> */}
             <hr className='resume-left-border' />
           </Cell>
           <Cell className='resume-right-col' col={8}>
             <h2>Education</h2>
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName='My University'
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2012}
+              endYear={2017}
+              schoolName='Rhode Island College'
+              degree='Bachelors of Arts'
+              schoolDescription='Undergrad degree in Object Oriented Programming primarily taught with a focus in Java & Python'
+              topics={[
+                'Software Engineering',
+                'Analysis of Algorithms',
+                'Functional Programming',
+                'Database Systems',
+                'Computer Architecture',
+                'Organization of Programming Languages',
+                'Cryptography',
+                'Statistical Methods',
+                'Discrete Mathematics'
+              ]}
             />
+
             <Education
-              startYear={2007}
-              endYear={2009}
-              schoolName='My 2nd University'
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2018}
+              endYear={2019}
+              schoolName='General Assembly'
+              degree='Software Engineering Immersive'
+              schoolDescription='Completion of a 500 hour, coding boot camp with experience in algorithms, data structures, design patterns, APIs, and real world problems.'
+              topics={[
+                'HTML',
+                'CSS',
+                'JavaScript',
+                'Express',
+                'Bootstrap && Handlebars',
+                'Ruby on Rails',
+                'React'
+              ]}
+              website='https://generalassemb.ly/education/software-engineering-immersive-remote-flex/providence'
             />
+
             <hr className='resume-right-border' />
             <h2>Experience</h2>
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName='First Job'
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2013}
+              endYear={2019}
+              jobName='Siena Inc.'
+              jobDescription={[]}
+              website='https://sienari.com/'
             />
             <Experience
               startYear={2012}
               endYear={2016}
-              jobName='Second Job'
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              jobName='CVS - Information Technology Service Technician'
+              jobDescription={[
+                'Diagnosed and categorized 40-60 issues daily',
+                'First point of escalation for all IT related inquiries supporting employees, contractors, and clients of CVS Health',
+                'Cooperating with development teams on bridges to fix problems with urgent priority',
+                'Experience with SalesForce, Unix / Putty, Active Directory, SQL Server, Citrix, MS Office Suite, Cisco Anyconnect, Printer and VPN Support issues'
+              ]}
             />
             <hr className='resume-right-border' />
             <h2>Skills</h2>

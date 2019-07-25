@@ -1,3 +1,9 @@
+li {
+  list-style-type: circle;
+  list-style-position: outside;
+  text-indent: -1.3em;
+}
+
 .header-color,
 .landing-grid {
   background: #0f2027; /* fallback for old browsers */
@@ -144,9 +150,10 @@
 
 .resume-avatar {
   text-align: center;
+  padding: 50px 0 0 0;
 }
 .resume-avatar img {
-  height: 200px;
+  height: 250px;
 }
 .resume-name {
   padding-top: 2em;
