@@ -58,6 +58,7 @@ class Resume extends Component {
                 'Statistical Methods',
                 'Discrete Mathematics'
               ]}
+              website='http://ric.smartcatalogiq.com/en/2018-2019/Catalog/Faculty-of-Arts-and-Sciences/Computer-Science/Computer-Science-B-A'
             />
 
             <Education
