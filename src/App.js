@@ -1,12 +1,11 @@
 import React from 'react'
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
-import { Link, HashRouter } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './App.css'
 import Main from './components/main.js'
 
 const App = () => {
   return (
-    <HashRouter>
     <div className='demo-big-content'>
       <Layout>
         <Header className='header-color' title='NBMT inc.' scroll>
@@ -31,7 +30,6 @@ const App = () => {
         </Content>
       </Layout>
     </div>
-    </HashRouter>
   )
 }
 
