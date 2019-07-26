@@ -10,16 +10,16 @@ const App = () => {
       <Layout>
         <Header className='header-color' title='NBMT inc.' scroll>
           <Navigation>
+            <Link to='/'>Home</Link>
             <Link to='/resume'>Resume</Link>
-            <Link to='/aboutMe'>About Me</Link>
             <Link to='/projects'>Projects</Link>
             <Link to='/contact'>Contact</Link>
           </Navigation>
         </Header>
         <Drawer title='Nate Biss'>
           <Navigation>
+            <Link to='/'>Home</Link>
             <Link to='/resume'>Resume</Link>
-            <Link to='/aboutMe'>About Me</Link>
             <Link to='/projects'>Projects</Link>
             <Link to='/contact'>Contact</Link>
           </Navigation>

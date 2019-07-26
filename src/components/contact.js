@@ -12,11 +12,10 @@ export default class contact extends Component {
               src='https://instagram.fzty1-1.fna.fbcdn.net/vp/d9d4bd1da97d86d122c66a5cd08ac202/5DA04B46/t51.2885-15/e35/s1080x1080/61411213_624638718050145_2295410649549424989_n.jpg?_nc_ht=instagram.fzty1-1.fna.fbcdn.net'
               alt='avatar'
             />
-            <p>26 year old.</p>
           </Cell>
 
           <Cell col={6}>
-            <h2>Contact Me</h2>
+            <h2>Points of Contact</h2>
             <hr />
             <div className='contact-list'>
               <List>
@@ -37,7 +36,10 @@ export default class contact extends Component {
                 <ListItem>
                   <ListItemContent className='contact-content'>
                     <i className='fab fa-linkedin' />
-                    <a href='https://www.linkedin.com/in/nathan-bissell/'>
+                    <a
+                      href='https://www.linkedin.com/in/nathan-bissell/'
+                      target='_blank'
+                    >
                       linkedIn
                     </a>
                   </ListItemContent>
@@ -46,7 +48,9 @@ export default class contact extends Component {
                 <ListItem>
                   <ListItemContent className='contact-content'>
                     <i className='fab fa-github-square' />
-                    <a href='https://github.com/nathantbissell'>github</a>
+                    <a href='https://github.com/nathantbissell' target='_blank'>
+                      github
+                    </a>
                   </ListItemContent>
                 </ListItem>
               </List>

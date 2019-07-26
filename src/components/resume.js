@@ -21,12 +21,28 @@ class Resume extends Component {
             <h4 className='resume-objective'>Programmer</h4>
             <hr className='resume-left-border' />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+              My journey as a programmer began as a Sophomore in College. Having
+              been a declared Nursing major for three semesters with a
+              concentration in anesthesiology, I reached a point that most
+              college undergraduates experience. A period of self reflecting and
+              understanding ensued. My true calling had always been engineering,
+              building, working with computers, or solving problems under
+              constrained circumstances. I declared as a Computer Science major,
+              and attained my Bachelors Degree in 2017.
+              <br />
+              <br />
+              While majoring in CS full time, I was employed full time at a
+              restaurant located on Federal Hill. I worked my way up from
+              bussing tables to a full time server for the last four years.
+              Another period of self reflection came while I was working at CVS
+              Corporate Headquarters, where I was diagnosing issues and
+              dispatching them to Desktop Support Teams. Although I liked the
+              job, I started looking for boot camps and developer jobs. That's
+              when I stumbled upon General Assembly, quit my job, and
+              participated in the full time <i>
+                Web Development Immersive
+              </i>{' '}
+              program in 2019.
             </p>
             <hr className='resume-left-border' />
             <h5>Address</h5>
@@ -35,7 +51,7 @@ class Resume extends Component {
             <p>(401) 556-2161</p>
             <h5>Email</h5>
             <p>natebissmadethis@gmail.com</p>
-            <h5>Web</h5>
+            {/* <h5>Web</h5> */}
             {/* <p>mywebsite.com</p> */}
             <hr className='resume-left-border' />
           </Cell>
@@ -85,7 +101,11 @@ class Resume extends Component {
               startYear={2013}
               endYear={2019}
               jobName='Siena Inc.'
-              jobDescription={[]}
+              jobDescription={[
+                'Voted “Best Restaurant” Rhode Island Monthly Readers Poll 2013, 2014, 2015, 2017',
+                'Expected to have an extensive understanding of menu items, their specific ingredients, and styles of preparation, primarily for dietary accommodations and preferences',
+                'Memorization and confident presentation of upwards of seven daily specials, flavor profiles, and articulation in an appetizing manner'
+              ]}
               website='https://sienari.com/'
             />
             <Experience
@@ -98,13 +118,14 @@ class Resume extends Component {
                 'Cooperating with development teams on bridges to fix problems with urgent priority',
                 'Experience with SalesForce, Unix / Putty, Active Directory, SQL Server, Citrix, MS Office Suite, Cisco Anyconnect, Printer and VPN Support issues'
               ]}
+              website='https://www.whitepages.com/business/RI/Cumberland/Cvs/b-1a69u1g'
             />
-            <hr className='resume-right-border' />
+            {/* <hr className='resume-right-border' />
             <h2>Skills</h2>
             <Skills skill='javascript' progress={100} />
             <Skills skill='HTML/CSS' progress={80} />
             <Skills skill='NodeJS' progress={50} />
-            <Skills skill='React' progress={25} />
+            <Skills skill='React' progress={25} /> */}
           </Cell>
         </Grid>
       </div>

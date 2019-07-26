@@ -81,7 +81,6 @@ li {
 /* contact.js CSS */
 
 .contact-body {
-  position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -133,7 +132,8 @@ li {
 }
 
 .contact-content {
-  font-size: 30px;
+  margin: 0 0 0 2rem;
+  font-size: 1.5em;
   font-family: Anton;
 }
 .contact-content .inbox {

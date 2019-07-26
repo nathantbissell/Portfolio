@@ -13,10 +13,11 @@ class Education extends Component {
         <Cell col={8}>
           <h3 style={{ marginTop: '0px' }}>{this.props.schoolName}</h3>
           <h5>{this.props.degree}</h5>
+
+          <p>{this.props.schoolDescription}</p>
           <a href={this.props.website} target='_blank'>
             more info
           </a>
-          <p>{this.props.schoolDescription}</p>
           <p>
             {this.props.topics.map(topic => (
               <li>{topic}</li>
