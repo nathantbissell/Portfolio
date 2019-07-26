@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nathantbissell.github.io/reactPortfolio/",
+  "homepage": "https://nathantbissell.github.io/Portfolio/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
