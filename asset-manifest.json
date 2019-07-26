@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.d8a508d2.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.6641df5e.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.6641df5e.chunk.js.map",
-    "runtime~main.js": "/reactPortfolio/static/js/runtime~main.7da5f713.js",
-    "runtime~main.js.map": "/reactPortfolio/static/js/runtime~main.7da5f713.js.map",
-    "static/css/2.60a6b8e0.chunk.css": "/reactPortfolio/static/css/2.60a6b8e0.chunk.css",
-    "static/js/2.9908cab3.chunk.js": "/reactPortfolio/static/js/2.9908cab3.chunk.js",
-    "static/js/2.9908cab3.chunk.js.map": "/reactPortfolio/static/js/2.9908cab3.chunk.js.map",
-    "index.html": "/reactPortfolio/index.html",
-    "precache-manifest.578567c9790d25c38526a97654701ab2.js": "/reactPortfolio/precache-manifest.578567c9790d25c38526a97654701ab2.js",
-    "service-worker.js": "/reactPortfolio/service-worker.js",
-    "static/css/2.60a6b8e0.chunk.css.map": "/reactPortfolio/static/css/2.60a6b8e0.chunk.css.map",
-    "static/css/main.d8a508d2.chunk.css.map": "/reactPortfolio/static/css/main.d8a508d2.chunk.css.map"
+    "main.css": "/Portfolio/static/css/main.d8a508d2.chunk.css",
+    "main.js": "/Portfolio/static/js/main.32636cf2.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.32636cf2.chunk.js.map",
+    "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
+    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/Portfolio/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.02de1674.chunk.js": "/Portfolio/static/js/2.02de1674.chunk.js",
+    "static/js/2.02de1674.chunk.js.map": "/Portfolio/static/js/2.02de1674.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.5e9a2cdd9cc3f85c5ce38a1ed433af19.js": "/Portfolio/precache-manifest.5e9a2cdd9cc3f85c5ce38a1ed433af19.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/Portfolio/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.d8a508d2.chunk.css.map": "/Portfolio/static/css/main.d8a508d2.chunk.css.map"
   }
 }
