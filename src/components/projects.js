@@ -29,7 +29,7 @@ export default class projects extends Component {
               className='title'
               style={{
                 background:
-                  'url(https://nathantbissell.github.io/Portfolio/img/techup.jpg) center / cover'
+                  'url(https://nathantbissell.github.io/OldPortfolio/img/techup.jpg) center / cover'
               }}
             />
             <CardText>
@@ -51,7 +51,7 @@ export default class projects extends Component {
               className='title'
               style={{
                 background:
-                  'url(https://nathantbissell.github.io/Portfolio/img/rotoreact.JPG) center / cover'
+                  'url(https://nathantbissell.github.io/OldPortfolio/img/rotoreact.JPG) center / cover'
               }}
             />
             <CardText>
@@ -89,14 +89,79 @@ export default class projects extends Component {
       )
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>Projects Pending!</h1>
+        <div className='project-grid'>
+          <Card shadow={5} className='card'>
+            <CardTitle
+              className='title'
+              style={{
+                background:
+                  'url(https://nathantbissell.github.io/OldPortfolio/img/sneakerspot.JPG) center / cover'
+              }}
+            />
+            <CardText>
+              Built with Javascript, Jquery, and Handlebars on the frontend with
+              a Ruby on Rails backend.
+            </CardText>
+            <CardActions border>
+              <div className='github'>
+                <Button colored>Github</Button>
+              </div>
+            </CardActions>
+          </Card>
+          {/* // Project 2 */}
+          <Card shadow={5} className='card'>
+            <CardTitle
+              className='title'
+              style={{
+                background:
+                  'url(https://nathantbissell.github.io/OldPortfolio/img/foodsens.JPG) center / cover'
+              }}
+            />
+            <CardText>A restaurant rating app</CardText>
+            <CardActions border>
+              <div className='github'>
+                <Button colored>Github</Button>
+              </div>
+            </CardActions>
+          </Card>
+          {/* // Project 3 */}
+          <Card shadow={5} className='card'>
+            <CardTitle
+              className='title'
+              style={{
+                background:
+                  'url(https://nathantbissell.github.io/OldPortfolio/img/tictactoe.JPG) center / cover'
+              }}
+            />
+            <CardText>A TicTacToe game</CardText>
+            <CardActions border>
+              <div className='github'>
+                <Button colored>Github</Button>
+              </div>
+            </CardActions>
+          </Card>
         </div>
       )
     } else if (this.state.activeTab === 2) {
       return (
-        <div>
-          <h1>Projects Pending!</h1>
+        <div className='project-grid'>
+          <Card shadow={5} className='card'>
+            <CardTitle
+              className='title'
+              style={{
+                background:
+                  'url(https://i.imgur.com/jPkSyX8.jpg) center / cover'
+              }}
+            />
+            <CardText>
+              Old Portfolio made with Bootstrap template and Javascript.
+            </CardText>
+            <CardActions border>
+              <div className='github'>
+                <Button colored>Github</Button>
+              </div>
+            </CardActions>
+          </Card>
         </div>
       )
     }
@@ -111,8 +176,8 @@ export default class projects extends Component {
           ripple
         >
           <Tab>React</Tab>
-          <Tab>Ruby on Rails</Tab>
-          <Tab>JS</Tab>
+          <Tab>General Assembly</Tab>
+          <Tab>Misc</Tab>
         </Tabs>
 
         <Grid>
