@@ -19,6 +19,11 @@ export default class projects extends Component {
     }
   }
 
+  // openProject = (url) => {
+  //  return window.open(url,'_blank')}
+
+  //   onClick={this.openProject('https://github.com/nathantbissell/ecommerce')}
+
   toggleCategories = () => {
     if (this.state.activeTab === 0) {
       return (
@@ -41,7 +46,7 @@ export default class projects extends Component {
             </CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored>Github</Button>
+                <Button colored><a href='https://github.com/nathantbissell/ecommerce' target='_blank' rel="noopener noreferrer">Github</a></Button>
               </div>
             </CardActions>
           </Card>
@@ -61,7 +66,7 @@ export default class projects extends Component {
             </CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored>Github</Button>
+                <Button colored><a href='https://github.com/nathantbissell/roto-react' target='_blank' rel="noopener noreferrer">Github</a></Button>
               </div>
             </CardActions>
           </Card>
@@ -81,7 +86,7 @@ export default class projects extends Component {
             </CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored>Github</Button>
+                <Button colored><a href='https://github.com/nathantbissell/stocks' target='_blank' rel="noopener noreferrer">Github</a></Button>
               </div>
             </CardActions>
           </Card>
@@ -104,7 +109,7 @@ export default class projects extends Component {
             </CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored>Github</Button>
+                <Button colored><a href='https://github.com/nathantbissell/full-stack-project-client' target='_blank' rel="noopener noreferrer">Github</a></Button>
               </div>
             </CardActions>
           </Card>
@@ -120,7 +125,7 @@ export default class projects extends Component {
             <CardText>A restaurant rating app</CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored>Github</Button>
+                <Button colored><a href='https://github.com/pvd-04-team-02' target='_blank' rel="noopener noreferrer">Github</a></Button>
               </div>
             </CardActions>
           </Card>
@@ -136,7 +141,7 @@ export default class projects extends Component {
             <CardText>A TicTacToe game</CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored>Github</Button>
+                <Button colored><a href='https://github.com/nathantbissell/tictactoe-client' target='_blank' rel="noopener noreferrer">Github</a></Button>
               </div>
             </CardActions>
           </Card>
@@ -158,7 +163,7 @@ export default class projects extends Component {
             </CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored>Github</Button>
+                <Button colored><a href='https://github.com/nathantbissell/OldPortfolio' target='_blank' rel="noopener noreferrer">Github</a></Button>
               </div>
             </CardActions>
           </Card>

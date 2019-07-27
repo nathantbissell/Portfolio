@@ -38,7 +38,7 @@ export default class contact extends Component {
                     <i className='fab fa-linkedin' />
                     <a
                       href='https://www.linkedin.com/in/nathan-bissell/'
-                      target='_blank'
+                      target='_blank' rel="noopener noreferrer"
                     >
                       linkedIn
                     </a>
@@ -48,7 +48,7 @@ export default class contact extends Component {
                 <ListItem>
                   <ListItemContent className='contact-content'>
                     <i className='fab fa-github-square' />
-                    <a href='https://github.com/nathantbissell' target='_blank'>
+                    <a href='https://github.com/nathantbissell' target='_blank' rel="noopener noreferrer">
                       github
                     </a>
                   </ListItemContent>

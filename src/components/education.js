@@ -15,7 +15,7 @@ class Education extends Component {
           <h5>{this.props.degree}</h5>
 
           <p>{this.props.schoolDescription}</p>
-          <a href={this.props.website} target='_blank'>
+          <a href={this.props.website} target='_blank' rel="noopener noreferrer">
             more info
           </a>
           <p>

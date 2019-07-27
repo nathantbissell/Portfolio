@@ -12,7 +12,7 @@ class Experience extends Component {
         </Cell>
         <Cell col={8}>
           <h4 style={{ marginTop: '0px' }}>{this.props.jobName}</h4>
-          <a href={this.props.website} target='_blank'>
+          <a href={this.props.website} target='_blank' rel="noopener noreferrer">
             more info
           </a>
           <p>
