@@ -19,14 +19,14 @@ class Landing extends Component {
               <p>Javascript | CSS | React | Jquery | MongoDB | Express</p>
               <div className='social-links'>
                 <a
-                  href='http://google.com'
+                  href='https://www.instagram.com/natebiss/'
                   rel='noopener noreferrer'
                   target='_blank'
                 >
                   <i className='fab fa-instagram' />
                 </a>
                 <a
-                  href='http://google.com'
+                  href='https://www.linkedin.com/in/nathan-bissell/'
                   rel='noopener noreferrer'
                   target='_blank'
                 >
