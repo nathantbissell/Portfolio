@@ -108,8 +108,8 @@ class Resume extends Component {
               website='https://sienari.com/'
             />
             <Experience
-              startYear={2012}
-              endYear={2016}
+              startYear={2017}
+              endYear={2018}
               jobName='CVS - Information Technology Service Technician'
               jobDescription={[
                 'Diagnosed and categorized 40-60 issues daily',
