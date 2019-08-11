@@ -19,11 +19,6 @@ export default class projects extends Component {
     }
   }
 
-  // openProject = (url) => {
-  //  return window.open(url,'_blank')}
-
-  //   onClick={this.openProject('https://github.com/nathantbissell/ecommerce')}
-
   toggleCategories = () => {
     if (this.state.activeTab === 0) {
       return (
@@ -46,7 +41,24 @@ export default class projects extends Component {
             </CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored><a href='https://github.com/nathantbissell/ecommerce' target='_blank' rel="noopener noreferrer">Github</a></Button>
+                <Button colored>
+                  <a
+                    href='https://github.com/nathantbissell/ecommerce'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  <a
+                    href='https://nathantbissell.github.io/ecommerce'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Live Site
+                  </a>
+                </Button>
               </div>
             </CardActions>
           </Card>
@@ -66,7 +78,24 @@ export default class projects extends Component {
             </CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored><a href='https://github.com/nathantbissell/roto-react' target='_blank' rel="noopener noreferrer">Github</a></Button>
+                <Button colored>
+                  <a
+                    href='https://github.com/nathantbissell/roto-react'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  <a
+                    href='https://nathantbissell.github.io/roto-react'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Live Site
+                  </a>
+                </Button>
               </div>
             </CardActions>
           </Card>
@@ -86,7 +115,24 @@ export default class projects extends Component {
             </CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored><a href='https://github.com/nathantbissell/stocks' target='_blank' rel="noopener noreferrer">Github</a></Button>
+                <Button colored>
+                  <a
+                    href='https://github.com/nathantbissell/stocks'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  <a
+                    href='https://nathantbissell.github.io/stocks'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Live Site
+                  </a>
+                </Button>
               </div>
             </CardActions>
           </Card>
@@ -109,7 +155,24 @@ export default class projects extends Component {
             </CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored><a href='https://github.com/nathantbissell/full-stack-project-client' target='_blank' rel="noopener noreferrer">Github</a></Button>
+                <Button colored>
+                  <a
+                    href='https://github.com/nathantbissell/full-stack-project-client'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  <a
+                    href='https://nathantbissell.github.io/full-stack-project-client'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Live Site
+                  </a>
+                </Button>
               </div>
             </CardActions>
           </Card>
@@ -125,7 +188,24 @@ export default class projects extends Component {
             <CardText>A restaurant rating app</CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored><a href='https://github.com/pvd-04-team-02' target='_blank' rel="noopener noreferrer">Github</a></Button>
+                <Button colored>
+                  <a
+                    href='https://github.com/pvd-04-team-02'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  <a
+                    href='https://pvd-04-team-02.github.io/pley-with-your-food-client/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Live Site
+                  </a>
+                </Button>
               </div>
             </CardActions>
           </Card>
@@ -141,7 +221,24 @@ export default class projects extends Component {
             <CardText>A TicTacToe game</CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored><a href='https://github.com/nathantbissell/tictactoe-client' target='_blank' rel="noopener noreferrer">Github</a></Button>
+                <Button colored>
+                  <a
+                    href='https://github.com/nathantbissell/tictactoe-client'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  <a
+                    href='https://nathantbissell.github.io/tictactoe-client/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Live Site
+                  </a>
+                </Button>
               </div>
             </CardActions>
           </Card>
@@ -163,7 +260,24 @@ export default class projects extends Component {
             </CardText>
             <CardActions border>
               <div className='github'>
-                <Button colored><a href='https://github.com/nathantbissell/OldPortfolio' target='_blank' rel="noopener noreferrer">Github</a></Button>
+                <Button colored>
+                  <a
+                    href='https://github.com/nathantbissell/OldPortfolio'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  <a
+                    href='https://nathantbissell.github.io/OldPortfolio/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Live Site
+                  </a>
+                </Button>
               </div>
             </CardActions>
           </Card>
