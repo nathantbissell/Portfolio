@@ -29,6 +29,43 @@ export default class projects extends Component {
               className='title'
               style={{
                 background:
+                  'url(https://i.imgur.com/1Y0XBLy.jpg) center / cover'
+              }}
+            />
+            <CardText>
+              A original experiment featuring React Class Components, Lifecycle
+              Methods, ChartJS, toastify notifications, and Bootstrap Progress
+              Bars to simulate a constantly fluctuating stock market.
+            </CardText>
+            <CardActions border>
+              <div className='github'>
+                <Button colored>
+                  <a
+                    href='https://github.com/nathantbissell/stocks'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  <a
+                    href='https://nathantbissell.github.io/stocks'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Live Site
+                  </a>
+                </Button>
+              </div>
+            </CardActions>
+          </Card>
+          {/* // Project 2 */}
+          <Card shadow={5} className='card'>
+            <CardTitle
+              className='title'
+              style={{
+                background:
                   'url(https://nathantbissell.github.io/OldPortfolio/img/techup.jpg) center / cover'
               }}
             />
@@ -62,7 +99,7 @@ export default class projects extends Component {
               </div>
             </CardActions>
           </Card>
-          {/* // Project 2 */}
+          {/* // Project 3 */}
           <Card shadow={5} className='card'>
             <CardTitle
               className='title'
@@ -90,43 +127,6 @@ export default class projects extends Component {
                 <Button colored>
                   <a
                     href='https://nathantbissell.github.io/roto-react'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    Live Site
-                  </a>
-                </Button>
-              </div>
-            </CardActions>
-          </Card>
-          {/* // Project 3 */}
-          <Card shadow={5} className='card'>
-            <CardTitle
-              className='title'
-              style={{
-                background:
-                  'url(https://pbs.twimg.com/media/D9ZJ-zTWkAAXlNN?format=jpg&name=small) center / cover'
-              }}
-            />
-            <CardText>
-              React Class based Components, using state, random number
-              generators, toastify notifications, and Bootstrap Progress Bars to
-              simulate a constantly fluctuating stock market.
-            </CardText>
-            <CardActions border>
-              <div className='github'>
-                <Button colored>
-                  <a
-                    href='https://github.com/nathantbissell/stocks'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    Github
-                  </a>
-                </Button>
-                <Button colored>
-                  <a
-                    href='https://nathantbissell.github.io/stocks'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
