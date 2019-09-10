@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
+import '../App.css'
 
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: '100%', margin: 'auto' }}>
+      <div className='container'>
         <Grid className='landing-grid'>
           <Cell col={12}>
             <img
@@ -16,7 +17,9 @@ class Landing extends Component {
               <h1>Full Stack Web Developer</h1>
 
               <hr />
-              <p>Javascript | CSS | React | Jquery | MongoDB | Express</p>
+              <p>
+                Javascript | React | Java | ChartJS | D3 | MongoDB | Express
+              </p>
               <div className='social-links'>
                 <a
                   href='https://www.instagram.com/natebiss/'
