@@ -70,8 +70,7 @@ export default class projects extends Component {
               }}
             />
             <CardText>
-              Built with React Class based Components, React Context, and a
-              fully functional frontend deployed onto Github pages. This site
+              Built with React Class based Components with Context. This site
               allows you to purchase multiple tech products, add them to cart,
               view details, update quantity of items, and cash out via Paypal
               API.
@@ -100,6 +99,44 @@ export default class projects extends Component {
             </CardActions>
           </Card>
           {/* // Project 3 */}
+          <Card shadow={5} className='card'>
+            <CardTitle
+              className='title'
+              style={{
+                background:
+                  'url(https://i.imgur.com/1isCpHh.jpg) center / cover'
+              }}
+            />
+            <CardText>
+              (React Hooks, MongoDB, Express, Node, jwtoken, bcrypt) A
+              full-stack React application that allows you to register, login,
+              and create a To-Do List, complete tasks, and delete tasks.
+            </CardText>
+            <CardActions border>
+              <div className='github'>
+                <Button colored>
+                  <a
+                    href='https://github.com/nathantbissell/mern-auth'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  <a
+                    href='https://still-retreat-34735.herokuapp.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Live Site
+                  </a>
+                </Button>
+              </div>
+            </CardActions>
+          </Card>
+          {/* // Project 4 */}
+
           <Card shadow={5} className='card'>
             <CardTitle
               className='title'
