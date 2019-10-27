@@ -8,10 +8,7 @@ export default class contact extends Component {
         <Grid className='contact-grid'>
           <Cell col={6}>
             <h1>Nathan Bissell</h1>
-            <img
-              src='https://instagram.fzty1-1.fna.fbcdn.net/vp/d9d4bd1da97d86d122c66a5cd08ac202/5DA04B46/t51.2885-15/e35/s1080x1080/61411213_624638718050145_2295410649549424989_n.jpg?_nc_ht=instagram.fzty1-1.fna.fbcdn.net'
-              alt='avatar'
-            />
+            <img src='https://i.imgur.com/2bb6ydR.jpg' alt='avatar' />
           </Cell>
 
           <Cell col={6}>
@@ -38,7 +35,8 @@ export default class contact extends Component {
                     <i className='fab fa-linkedin' />
                     <a
                       href='https://www.linkedin.com/in/nathan-bissell/'
-                      target='_blank' rel="noopener noreferrer"
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
                       linkedIn
                     </a>
@@ -48,7 +46,11 @@ export default class contact extends Component {
                 <ListItem>
                   <ListItemContent className='contact-content'>
                     <i className='fab fa-github-square' />
-                    <a href='https://github.com/nathantbissell' target='_blank' rel="noopener noreferrer">
+                    <a
+                      href='https://github.com/nathantbissell'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
                       github
                     </a>
                   </ListItemContent>

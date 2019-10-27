@@ -10,10 +10,7 @@ class Resume extends Component {
         <Grid>
           <Cell col={4}>
             <div className='resume-avatar'>
-              <img
-                src='https://instagram.fzty1-1.fna.fbcdn.net/vp/d9d4bd1da97d86d122c66a5cd08ac202/5DA04B46/t51.2885-15/e35/s1080x1080/61411213_624638718050145_2295410649549424989_n.jpg?_nc_ht=instagram.fzty1-1.fna.fbcdn.net'
-                alt='avatar'
-              />
+              <img src='https://i.imgur.com/2bb6ydR.jpg' alt='avatar' />
             </div>
 
             <h2 className='resume-name'>Nathan Bissell</h2>
